@@ -1,0 +1,16 @@
+{
+    "Model": {
+                "weights_path" : "../weights/cude_yolo5s6.torchscript",
+                "classes"      : "../weights/coco.names",
+                "image_heigth" : 640,
+                "image_width"  : 640,
+                "conf_thres"   : 0.5,
+                "iou_thres"    : 0.5,
+                "warmup_time"  : 5,
+                "gpu"          : true
+    },
+    "System": { "using_video": false,
+                "video_path": "../video/car_chase_02.mp4",
+                "image_path": "../images/zidane.jpg"
+    }
+}
