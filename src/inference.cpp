@@ -32,6 +32,7 @@ std::vector<std::string> ModelDetector::LoadNames(const std::string& data_path) 
 }
 
 void ModelDetector::LoadWeight(const std::string& path) {
+    std::cout << path << std::endl;
     try {
         module_ = torch::jit::load(path);
     }

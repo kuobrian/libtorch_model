@@ -8,9 +8,6 @@ using json = nlohmann::json;
 
 std::string CONFIG_FILE = "../model_setting.json";
 
-
-
-
 void DemoVideo(std::string source, auto& detector) {
     cv::VideoCapture cap(source);
     if(!cap.isOpened()){
