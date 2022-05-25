@@ -9,8 +9,8 @@
                 "warmup_time"  : 5,
                 "gpu"          : true
     },
-    "System": { "using_video": false,
-                "video_path": "../video/car_chase_02.mp4",
+    "System": { "using_video": true,
+                "video_path": "../video/car_chase_01.mp4",
                 "image_path": "../images/zidane.jpg"
     }
 }
