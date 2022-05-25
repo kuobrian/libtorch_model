@@ -1,6 +1,11 @@
-# libtorch Model
+# Libtorch Model with object detection
 
-## 1. Install libtorch
+![Example result video](https://github.com/kuobrian/libtorch_model/blob/json_version/images/demo.gif)
+
+## How to use
+
+
+### 1. Install libtorch
 
 ```
 wget https://download.pytorch.org/libtorch/cu113/libtorch-cxx11-abi-shared-with-deps-1.11.0%2Bcu113.zip
@@ -9,7 +14,7 @@ unzip libtorch-cxx11-abi-shared-with-deps-1.11.0+cu113.zip
 
 ```
 
-## 2. Change model weight path in model_setting.json
+### 2. Change model weight path in model_setting.json
 
 
 ```
@@ -18,4 +23,3 @@ unzip libtorch-cxx11-abi-shared-with-deps-1.11.0+cu113.zip
                 "classes"      : "../weights/coco.names",
                 ...
 ```
-
